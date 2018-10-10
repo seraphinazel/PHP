@@ -1,0 +1,204 @@
+
+body {
+	background-image: linear-gradient(#188ab5, #b89c7b);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.menu {
+	list-style-type: none;
+	font-size: 23px;
+	text-shadow: 1px 1px 2px black, 0 0 1em teal;
+	width: 350px;
+	clear: both;
+	position: relative;
+	bottom: 45px;
+	left: 300px;
+}
+
+.menu, h2, h3, p, ul, li {
+	font-family: 'Kurale', serif;
+}
+
+h2.merch, 
+h3.merch,
+div.merch>p,
+.character,
+h3+p, 
+ol {
+	color: #291b0a;
+}
+
+.menu>ul>li>a {
+	color: lightcyan;
+}
+
+div.menu>ul>li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+input, textarea {
+	font-family: Times, serif;
+	font-size: 17px;
+	color: #5a3c19;
+	background-color: beige;
+	display: block;
+}
+
+img.merch {
+	border: 2px double #c4aa8b;
+}
+
+div.merch>p {
+	width: 500px;
+	margin-left: 20px;
+}
+
+div.merch {
+	float: left;
+}
+
+.character {
+	list-style-image: url("../img/mandala.png");
+	font-style: italic;
+	border: 2px solid #c4aa8b;
+	background-color: rgba(202, 191, 178, 0.2);
+	margin-top: 0px;
+	margin-left: 50px;
+	height: 348px;
+	padding-right: 10px;
+}
+
+.character>li {
+	line-height: 45px;
+}
+
+h3+p, ol {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.header {
+	height: 300px;
+	background-image: url(../img/header.png);
+	background-size: cover;
+}
+
+fieldset {
+	width: 300px;
+}
+
+.menu>ul>li>a:hover {
+    color: burlywood;
+}
+
+.container {
+	width: 80%;
+	min-width: 700px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+	margin-left: 100px;
+	margin-top: 20px;
+	float: left;
+}
+
+.footer {
+	height: 50px;
+	border-top: 2px double white;
+	background-color: rgba(213, 196, 159, 0.4);
+	text-align: right;
+}
+
+.footer>p {
+	margin: 10px 50px 0px 0px;
+}
+
+.buy {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	background-color: teal;
+	color: beige;
+}
+
+.buy:hover {
+	box-shadow: 0 0 5px black;
+}
+
+.buy:active {
+	background-color: wheat;
+	color: brown;
+}
+
+.merchcatalog a {
+	color: lightskyblue;
+	font-size: 18px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.merchcatalog {
+	width: 300px;
+	margin: 50px;
+	padding: 20px;
+	border: 2px solid #c4aa8b;
+	background-color: rgba(202, 191, 178, 0.2);
+	display: inline-block;
+}
+
+.merchcatalog:hover,
+img.merch:hover,
+.header {
+	border: 2px solid teal;
+	box-shadow: 0 0 5px white;
+}
+
+img[src="img/main.jpg"] {
+	border: 1px solid white;
+}
+
+.main {
+	width: 720px;
+	clear: both;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.bread {
+	height: 30px;
+}
+
+.bread a {
+	padding-top: 5px;
+	color: white;
+}
+
+p.bread {
+	margin-top: 5px;
+	color: burlywood;
+}
+
+.bread a,
+p.bread {
+	float: left;
+	font-family: 'Kurale';
+	font-size: 20px;
+	text-shadow: 1px 1px 1px teal;
+}
+
+.merchcatalog p {
+	font-size: 17px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	color: lightcyan;
+}
