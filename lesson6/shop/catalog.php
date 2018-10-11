@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Отзывы</title>
+	<title>Каталог</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
 </head>
@@ -23,23 +23,12 @@
 		</div>
 		<div class="bread">
 			<a href="index.html">Главная&rarr;</a>
-			<p class="bread">Отзывы</p>
+			<p class="bread">Каталог</p>
 		</div>
 		<div style="clear:both;"> </div>
+		
+		<?include "showcatalog.php" ?>
 
-		<p><b>Мы ждем Ваших отзывов! Напишите нам!</b></p>
-		<form method="post" action="sendfeedback.php">
-		<fieldset>
-			<input type="text" size="40" name="name" placeholder="Ваше имя">
-			<input type="text" size="40" name="theme" placeholder="Тема сообщения">
-			<textarea cols="75" rows="10" name="message"></textarea>
-			<input type="submit" name="submit" value="Отправить">
-			<input type="reset" value="Очистить форму">
-		</fieldset>
-		</form>
-
-		<p><b>Последние отзывы</b></p>
-		<p><?include "lastfeedback.php" ?></p>
 	</div>
 	<div class="footer">
 		<p>
